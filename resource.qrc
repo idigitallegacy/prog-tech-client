@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/fonts">
+        <file>fonts/Cantarell-Bold.ttf</file>
+        <file>fonts/Cantarell-BoldItalic.ttf</file>
+        <file>fonts/Cantarell-Italic.ttf</file>
+        <file>fonts/Cantarell-Regular.ttf</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file>images/error.svg</file>
+        <file>images/success.svg</file>
+    </qresource>
+</RCC>

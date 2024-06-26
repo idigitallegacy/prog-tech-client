@@ -1,0 +1,370 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Qt/Qt5.12.12/Tools/QtCreator/bin/clang/bin/clang-cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      The CXX compiler identification is Clang, found in:
+        C:/QT Projects/DotaParserClient/build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug/CMakeFiles/3.28.3/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        Note: including file: ./foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/QT Projects/DotaParserClient/build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-x7ez00"
+      binary: "C:/QT Projects/DotaParserClient/build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-x7ez00"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/QT Projects/DotaParserClient/build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-x7ez00'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 jom -f Makefile /nologo cmTC_4006a\\fast
+        jom: parallel job execution disabled for Makefile
+        	C:\\Qt\\Qt5.12.12\\Tools\\QtCreator\\bin\\jom\\jom.exe  -f CMakeFiles\\cmTC_4006a.dir\\build.make /nologo -L CMakeFiles\\cmTC_4006a.dir\\build
+        Building CXX object CMakeFiles/cmTC_4006a.dir/CMakeCXXCompilerABI.cpp.obj
+        	C:\\Qt\\Qt5.12.12\\Tools\\QtCreator\\bin\\clang\\bin\\clang-cl.exe @C:\\Users\\elfxe\\AppData\\Local\\Temp\\CMakeCXXCompilerABI.cpp.obj.5052.0.jom
+        Linking CXX executable cmTC_4006a.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_4006a.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests -- C:\\PROGRA~2\\MICROS~1.0\\VC\\bin\\amd64\\link.exe /nologo @CMakeFiles\\cmTC_4006a.dir\\objects1.rsp @C:\\Users\\elfxe\\AppData\\Local\\Temp\\cmTC_4006a.exe.5052.63.jom
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_4006a.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_4006a.dir/embed.manifest
+        RC Pass 1:
+        rc /fo CMakeFiles\\cmTC_4006a.dir/manifest.res CMakeFiles\\cmTC_4006a.dir/manifest.rc
+        RC Pass 1: command "rc /fo CMakeFiles\\cmTC_4006a.dir/manifest.res CMakeFiles\\cmTC_4006a.dir/manifest.rc" failed (exit code 0) with the following output:
+        Не удается найти указанный файлjom: C:\\QT Projects\\DotaParserClient\\build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-x7ez00\\CMakeFiles\\cmTC_4006a.dir\\build.make [cmTC_4006a.exe] Error 2
+        jom: C:\\QT Projects\\DotaParserClient\\build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-x7ez00\\Makefile [cmTC_4006a\\fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:49 (try_compile)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Check for working CXX compiler: C:/Qt/Qt5.12.12/Tools/QtCreator/bin/clang/bin/clang-cl.exe"
+    directories:
+      source: "C:/QT Projects/DotaParserClient/build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-jxu20p"
+      binary: "C:/QT Projects/DotaParserClient/build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-jxu20p"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/QT Projects/DotaParserClient/build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-jxu20p'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 jom -f Makefile /nologo cmTC_a1e21\\fast
+        jom: parallel job execution disabled for Makefile
+        	C:\\Qt\\Qt5.12.12\\Tools\\QtCreator\\bin\\jom\\jom.exe  -f CMakeFiles\\cmTC_a1e21.dir\\build.make /nologo -L CMakeFiles\\cmTC_a1e21.dir\\build
+        Building CXX object CMakeFiles/cmTC_a1e21.dir/testCXXCompiler.cxx.obj
+        	C:\\Qt\\Qt5.12.12\\Tools\\QtCreator\\bin\\clang\\bin\\clang-cl.exe @C:\\Users\\elfxe\\AppData\\Local\\Temp\\testCXXCompiler.cxx.obj.6024.15.jom
+        Linking CXX executable cmTC_a1e21.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_a1e21.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests -- C:\\PROGRA~2\\MICROS~1.0\\VC\\bin\\amd64\\link.exe /nologo @CMakeFiles\\cmTC_a1e21.dir\\objects1.rsp @C:\\Users\\elfxe\\AppData\\Local\\Temp\\cmTC_a1e21.exe.6024.250.jom
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_a1e21.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_a1e21.dir/embed.manifest
+        RC Pass 1:
+        rc /fo CMakeFiles\\cmTC_a1e21.dir/manifest.res CMakeFiles\\cmTC_a1e21.dir/manifest.rc
+        RC Pass 1: command "rc /fo CMakeFiles\\cmTC_a1e21.dir/manifest.res CMakeFiles\\cmTC_a1e21.dir/manifest.rc" failed (exit code 0) with the following output:
+        Не удается найти указанный файлjom: C:\\QT Projects\\DotaParserClient\\build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-jxu20p\\CMakeFiles\\cmTC_a1e21.dir\\build.make [cmTC_a1e21.exe] Error 2
+        jom: C:\\QT Projects\\DotaParserClient\\build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-jxu20p\\Makefile [cmTC_a1e21\\fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Qt/Qt5.12.12/Tools/QtCreator/bin/clang/bin/clang-cl.exe 
+      Build flags: /DWIN32;/D_WINDOWS;/W3;/GR;/EHsc
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      The CXX compiler identification is Clang, found in:
+        C:/QT Projects/DotaParserClient/build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug/CMakeFiles/3.28.3/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        Note: including file: ./foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/QT Projects/DotaParserClient/build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-0u1eoi"
+      binary: "C:/QT Projects/DotaParserClient/build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-0u1eoi"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/QT Projects/DotaParserClient/build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-0u1eoi'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 jom -f Makefile /nologo cmTC_4521c\\fast
+        jom: parallel job execution disabled for Makefile
+        	C:\\Qt\\Qt5.12.12\\Tools\\QtCreator\\bin\\jom\\jom.exe  -f CMakeFiles\\cmTC_4521c.dir\\build.make /nologo -L CMakeFiles\\cmTC_4521c.dir\\build
+        Building CXX object CMakeFiles/cmTC_4521c.dir/CMakeCXXCompilerABI.cpp.obj
+        	C:\\Qt\\Qt5.12.12\\Tools\\QtCreator\\bin\\clang\\bin\\clang-cl.exe @C:\\Users\\elfxe\\AppData\\Local\\Temp\\CMakeCXXCompilerABI.cpp.obj.5600.94.jom
+        Linking CXX executable cmTC_4521c.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_4521c.dir --rc=rc --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~2\\MICROS~1.0\\VC\\bin\\amd64\\link.exe /nologo @CMakeFiles\\cmTC_4521c.dir\\objects1.rsp @C:\\Users\\elfxe\\AppData\\Local\\Temp\\cmTC_4521c.exe.5600.1672.jom
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_4521c.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_4521c.dir/embed.manifest
+        RC Pass 1:
+        rc /fo CMakeFiles\\cmTC_4521c.dir/manifest.res CMakeFiles\\cmTC_4521c.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~2\\MICROS~1.0\\VC\\bin\\amd64\\link.exe /nologo @CMakeFiles\\cmTC_4521c.dir\\objects1.rsp /out:cmTC_4521c.exe /implib:cmTC_4521c.lib /pdb:C:\\QT Projects\\DotaParserClient\\build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-0u1eoi\\cmTC_4521c.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_4521c.dir/intermediate.manifest CMakeFiles\\cmTC_4521c.dir/manifest.res
+        LINK Pass 1: command "C:\\PROGRA~2\\MICROS~1.0\\VC\\bin\\amd64\\link.exe /nologo @CMakeFiles\\cmTC_4521c.dir\\objects1.rsp /out:cmTC_4521c.exe /implib:cmTC_4521c.lib /pdb:C:\\QT Projects\\DotaParserClient\\build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-0u1eoi\\cmTC_4521c.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_4521c.dir/intermediate.manifest CMakeFiles\\cmTC_4521c.dir/manifest.res" failed (exit code 1120) with the following output:
+        msvcrtd.lib(loadcfg.obj) : error LNK2001: эхЁрчЁх°хээ√щ тэх°эшщ ёшьтюы "__enclave_config"
+        msvcrtd.lib(loadcfg.obj) : error LNK2001: эхЁрчЁх°хээ√щ тэх°эшщ ёшьтюы "__guard_eh_cont_table"
+        msvcrtd.lib(loadcfg.obj) : error LNK2001: эхЁрчЁх°хээ√щ тэх°эшщ ёшьтюы "__guard_eh_cont_count"
+        msvcrtd.lib(loadcfg.obj) : error LNK2001: эхЁрчЁх°хээ√щ тэх°эшщ ёшьтюы "__volatile_metadata"
+        cmTC_4521c.exe : fatal error LNK1120: эхЁрчЁх°хээ√ї тэх°эшї ¤ыхьхэЄют: 4
+        jom: C:\\QT Projects\\DotaParserClient\\build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-0u1eoi\\CMakeFiles\\cmTC_4521c.dir\\build.make [cmTC_4521c.exe] Error 2
+        jom: C:\\QT Projects\\DotaParserClient\\build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-0u1eoi\\Makefile [cmTC_4521c\\fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:49 (try_compile)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Check for working CXX compiler: C:/Qt/Qt5.12.12/Tools/QtCreator/bin/clang/bin/clang-cl.exe"
+    directories:
+      source: "C:/QT Projects/DotaParserClient/build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-6k3otv"
+      binary: "C:/QT Projects/DotaParserClient/build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-6k3otv"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/QT Projects/DotaParserClient/build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-6k3otv'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 jom -f Makefile /nologo cmTC_32587\\fast
+        jom: parallel job execution disabled for Makefile
+        	C:\\Qt\\Qt5.12.12\\Tools\\QtCreator\\bin\\jom\\jom.exe  -f CMakeFiles\\cmTC_32587.dir\\build.make /nologo -L CMakeFiles\\cmTC_32587.dir\\build
+        Building CXX object CMakeFiles/cmTC_32587.dir/testCXXCompiler.cxx.obj
+        	C:\\Qt\\Qt5.12.12\\Tools\\QtCreator\\bin\\clang\\bin\\clang-cl.exe @C:\\Users\\elfxe\\AppData\\Local\\Temp\\testCXXCompiler.cxx.obj.18640.0.jom
+        Linking CXX executable cmTC_32587.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_32587.dir --rc=rc --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~2\\MICROS~1.0\\VC\\bin\\amd64\\link.exe /nologo @CMakeFiles\\cmTC_32587.dir\\objects1.rsp @C:\\Users\\elfxe\\AppData\\Local\\Temp\\cmTC_32587.exe.18640.93.jom
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_32587.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_32587.dir/embed.manifest
+        RC Pass 1:
+        rc /fo CMakeFiles\\cmTC_32587.dir/manifest.res CMakeFiles\\cmTC_32587.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~2\\MICROS~1.0\\VC\\bin\\amd64\\link.exe /nologo @CMakeFiles\\cmTC_32587.dir\\objects1.rsp /out:cmTC_32587.exe /implib:cmTC_32587.lib /pdb:C:\\QT Projects\\DotaParserClient\\build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-6k3otv\\cmTC_32587.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_32587.dir/intermediate.manifest CMakeFiles\\cmTC_32587.dir/manifest.res
+        LINK Pass 1: command "C:\\PROGRA~2\\MICROS~1.0\\VC\\bin\\amd64\\link.exe /nologo @CMakeFiles\\cmTC_32587.dir\\objects1.rsp /out:cmTC_32587.exe /implib:cmTC_32587.lib /pdb:C:\\QT Projects\\DotaParserClient\\build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-6k3otv\\cmTC_32587.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_32587.dir/intermediate.manifest CMakeFiles\\cmTC_32587.dir/manifest.res" failed (exit code 1120) with the following output:
+        msvcrtd.lib(loadcfg.obj) : error LNK2001: эхЁрчЁх°хээ√щ тэх°эшщ ёшьтюы "__enclave_config"
+        msvcrtd.lib(loadcfg.obj) : error LNK2001: эхЁрчЁх°хээ√щ тэх°эшщ ёшьтюы "__guard_eh_cont_table"
+        msvcrtd.lib(loadcfg.obj) : error LNK2001: эхЁрчЁх°хээ√щ тэх°эшщ ёшьтюы "__guard_eh_cont_count"
+        msvcrtd.lib(loadcfg.obj) : error LNK2001: эхЁрчЁх°хээ√щ тэх°эшщ ёшьтюы "__volatile_metadata"
+        cmTC_32587.exe : fatal error LNK1120: эхЁрчЁх°хээ√ї тэх°эшї ¤ыхьхэЄют: 4
+        jom: C:\\QT Projects\\DotaParserClient\\build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-6k3otv\\CMakeFiles\\cmTC_32587.dir\\build.make [cmTC_32587.exe] Error 2
+        jom: C:\\QT Projects\\DotaParserClient\\build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-6k3otv\\Makefile [cmTC_32587\\fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Qt/Qt5.12.12/Tools/QtCreator/bin/clang/bin/clang-cl.exe 
+      Build flags: /DWIN32;/D_WINDOWS;/W3;/GR;/EHsc
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      The CXX compiler identification is Clang, found in:
+        C:/QT Projects/DotaParserClient/build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug/CMakeFiles/3.28.3/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        Note: including file: ./foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/QT Projects/DotaParserClient/build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-c34zso"
+      binary: "C:/QT Projects/DotaParserClient/build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-c34zso"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/QT Projects/DotaParserClient/build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-c34zso'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 jom -f Makefile /nologo cmTC_18514\\fast
+        jom: parallel job execution disabled for Makefile
+        	C:\\Qt\\Qt5.12.12\\Tools\\QtCreator\\bin\\jom\\jom.exe  -f CMakeFiles\\cmTC_18514.dir\\build.make /nologo -L CMakeFiles\\cmTC_18514.dir\\build
+        Building CXX object CMakeFiles/cmTC_18514.dir/CMakeCXXCompilerABI.cpp.obj
+        	C:\\Qt\\Qt5.12.12\\Tools\\QtCreator\\bin\\clang\\bin\\clang-cl.exe @C:\\Users\\elfxe\\AppData\\Local\\Temp\\CMakeCXXCompilerABI.cpp.obj.16424.0.jom
+        Linking CXX executable cmTC_18514.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_18514.dir --rc=rc --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~2\\MICROS~1.0\\VC\\bin\\amd64\\link.exe /nologo @CMakeFiles\\cmTC_18514.dir\\objects1.rsp @C:\\Users\\elfxe\\AppData\\Local\\Temp\\cmTC_18514.exe.16424.63.jom
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_18514.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_18514.dir/embed.manifest
+        RC Pass 1:
+        rc /fo CMakeFiles\\cmTC_18514.dir/manifest.res CMakeFiles\\cmTC_18514.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~2\\MICROS~1.0\\VC\\bin\\amd64\\link.exe /nologo @CMakeFiles\\cmTC_18514.dir\\objects1.rsp /out:cmTC_18514.exe /implib:cmTC_18514.lib /pdb:C:\\QT Projects\\DotaParserClient\\build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-c34zso\\cmTC_18514.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_18514.dir/intermediate.manifest CMakeFiles\\cmTC_18514.dir/manifest.res
+        LINK Pass 1: command "C:\\PROGRA~2\\MICROS~1.0\\VC\\bin\\amd64\\link.exe /nologo @CMakeFiles\\cmTC_18514.dir\\objects1.rsp /out:cmTC_18514.exe /implib:cmTC_18514.lib /pdb:C:\\QT Projects\\DotaParserClient\\build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-c34zso\\cmTC_18514.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_18514.dir/intermediate.manifest CMakeFiles\\cmTC_18514.dir/manifest.res" failed (exit code 1120) with the following output:
+        msvcrtd.lib(loadcfg.obj) : error LNK2001: эхЁрчЁх°хээ√щ тэх°эшщ ёшьтюы "__enclave_config"
+        msvcrtd.lib(loadcfg.obj) : error LNK2001: эхЁрчЁх°хээ√щ тэх°эшщ ёшьтюы "__volatile_metadata"
+        cmTC_18514.exe : fatal error LNK1120: эхЁрчЁх°хээ√ї тэх°эшї ¤ыхьхэЄют: 2
+        jom: C:\\QT Projects\\DotaParserClient\\build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-c34zso\\CMakeFiles\\cmTC_18514.dir\\build.make [cmTC_18514.exe] Error 2
+        jom: C:\\QT Projects\\DotaParserClient\\build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-c34zso\\Makefile [cmTC_18514\\fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:49 (try_compile)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Check for working CXX compiler: C:/Qt/Qt5.12.12/Tools/QtCreator/bin/clang/bin/clang-cl.exe"
+    directories:
+      source: "C:/QT Projects/DotaParserClient/build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-hw0w28"
+      binary: "C:/QT Projects/DotaParserClient/build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-hw0w28"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/QT Projects/DotaParserClient/build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-hw0w28'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 jom -f Makefile /nologo cmTC_9c946\\fast
+        jom: parallel job execution disabled for Makefile
+        	C:\\Qt\\Qt5.12.12\\Tools\\QtCreator\\bin\\jom\\jom.exe  -f CMakeFiles\\cmTC_9c946.dir\\build.make /nologo -L CMakeFiles\\cmTC_9c946.dir\\build
+        Building CXX object CMakeFiles/cmTC_9c946.dir/testCXXCompiler.cxx.obj
+        	C:\\Qt\\Qt5.12.12\\Tools\\QtCreator\\bin\\clang\\bin\\clang-cl.exe @C:\\Users\\elfxe\\AppData\\Local\\Temp\\testCXXCompiler.cxx.obj.12960.0.jom
+        Linking CXX executable cmTC_9c946.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_9c946.dir --rc=rc --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests -- C:\\PROGRA~2\\MICROS~1.0\\VC\\bin\\amd64\\link.exe /nologo @CMakeFiles\\cmTC_9c946.dir\\objects1.rsp @C:\\Users\\elfxe\\AppData\\Local\\Temp\\cmTC_9c946.exe.12960.78.jom
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_9c946.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_9c946.dir/embed.manifest
+        RC Pass 1:
+        rc /fo CMakeFiles\\cmTC_9c946.dir/manifest.res CMakeFiles\\cmTC_9c946.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~2\\MICROS~1.0\\VC\\bin\\amd64\\link.exe /nologo @CMakeFiles\\cmTC_9c946.dir\\objects1.rsp /out:cmTC_9c946.exe /implib:cmTC_9c946.lib /pdb:C:\\QT Projects\\DotaParserClient\\build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-hw0w28\\cmTC_9c946.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_9c946.dir/intermediate.manifest CMakeFiles\\cmTC_9c946.dir/manifest.res
+        LINK Pass 1: command "C:\\PROGRA~2\\MICROS~1.0\\VC\\bin\\amd64\\link.exe /nologo @CMakeFiles\\cmTC_9c946.dir\\objects1.rsp /out:cmTC_9c946.exe /implib:cmTC_9c946.lib /pdb:C:\\QT Projects\\DotaParserClient\\build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-hw0w28\\cmTC_9c946.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_9c946.dir/intermediate.manifest CMakeFiles\\cmTC_9c946.dir/manifest.res" failed (exit code 1120) with the following output:
+        msvcrtd.lib(loadcfg.obj) : error LNK2001: эхЁрчЁх°хээ√щ тэх°эшщ ёшьтюы "__enclave_config"
+        msvcrtd.lib(loadcfg.obj) : error LNK2001: эхЁрчЁх°хээ√щ тэх°эшщ ёшьтюы "__volatile_metadata"
+        cmTC_9c946.exe : fatal error LNK1120: эхЁрчЁх°хээ√ї тэх°эшї ¤ыхьхэЄют: 2
+        jom: C:\\QT Projects\\DotaParserClient\\build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-hw0w28\\CMakeFiles\\cmTC_9c946.dir\\build.make [cmTC_9c946.exe] Error 2
+        jom: C:\\QT Projects\\DotaParserClient\\build-DotaParserClientTest-Desktop_Qt_5_12_12_MSVC2015_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-hw0w28\\Makefile [cmTC_9c946\\fast] Error 2
+        
+      exitCode: 2
+...
